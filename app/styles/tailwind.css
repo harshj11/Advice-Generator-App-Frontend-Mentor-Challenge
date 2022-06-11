@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --cyan: 193deg 38% 86%;
+        --dkBlue: 218deg 23% 16%;
+        --dkGrayishBlue: 217deg 19% 24%;
+        --grayishBlue: 217deg 19% 38%;
+        --neonGreen: 150deg 100% 66%;
+    }
+}

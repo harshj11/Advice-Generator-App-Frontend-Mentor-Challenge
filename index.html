@@ -23,15 +23,35 @@
   <script src="./app/scripts/script.js" defer></script>
 
 </head>
-<body>
-  <h1 class="text-3xl font-bold underline text-clifford">Hello World!</h1>
-  Advice #<!-- Advice ID goes here -->
+<body class="bg-dkblue">
 
-  "<!-- Advice text goes here -->"
-  
-  <div class="attribution">
+  <main class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 bg-dkgrayishblue px-6 py-8 rounded-xl w-[22rem] md:w-[27rem]">
+    <div class="container">
+      <div class="text-xs text-center uppercase text-neongreen text-[10px] tracking-[.25em]">
+        <span>Advice</span>
+        <span id="advice-id">#117</span>
+      </div>
+      
+      <div class="mt-5 mb-7 text-center">
+        <p class="leading-8 text-[28px] text-[#CEE3E9]">
+          "This is a sample advice. This is a sample advice. This is a sample advice."
+        </p>
+      </div>
+
+      <div class="flex justify-center mb-8 mx-auto">
+        <img src="./images/pattern-divider-mobile.svg" class="md:hidden">
+        <img src="./images/pattern-divider-desktop.svg" class="hidden md:block">
+      </div>
+
+      <button class="absolute left-2/4 bg-neongreen p-4 rounded-[50%] -translate-x-1/2 hover:shadow-neongreen">
+        <img src="./images/icon-dice.svg">
+      </button>
+    </div>
+  </main>
+
+  <div class="absolute left-2/4 bottom-0 -translate-x-2/4 attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Harsh Jain</a>.
   </div>
 </body>
 </html>
