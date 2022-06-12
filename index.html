@@ -28,13 +28,12 @@
   <main class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 bg-dkgrayishblue px-6 py-8 rounded-xl w-[22rem] md:w-[27rem]">
     <div class="container">
       <div class="text-xs text-center uppercase text-neongreen text-[10px] tracking-[.25em]">
-        <span>Advice</span>
-        <span id="advice-id">#117</span>
+        <span>Advice #</span>
+        <span id="advice-id"></span>
       </div>
       
       <div class="mt-5 mb-7 text-center">
-        <p class="leading-8 text-[28px] text-[#CEE3E9]">
-          "This is a sample advice. This is a sample advice. This is a sample advice."
+        <p class="leading-8 text-[28px] text-[#CEE3E9]" id="advice-text">
         </p>
       </div>
 
@@ -43,7 +42,7 @@
         <img src="./images/pattern-divider-desktop.svg" class="hidden md:block">
       </div>
 
-      <button class="absolute left-2/4 bg-neongreen p-4 rounded-[50%] -translate-x-1/2 hover:shadow-neongreen">
+      <button class="absolute left-2/4 bg-neongreen p-4 rounded-[50%] -translate-x-1/2 hover:shadow-neongreen" id="generate-advice">
         <img src="./images/icon-dice.svg">
       </button>
     </div>
