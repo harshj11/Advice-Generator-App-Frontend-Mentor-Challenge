@@ -27,10 +27,10 @@
 
   <main class="absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 bg-dkgrayishblue px-6 py-8 rounded-xl w-[22rem] md:w-[27rem]">
     <div class="container">
-      <div class="text-xs text-center uppercase text-neongreen text-[10px] tracking-[.25em]">
+      <h1 class="text-xs text-center uppercase text-neongreen text-[10px] tracking-[.25em]">
         <span>Advice #</span>
         <span id="advice-id"></span>
-      </div>
+      </h1>
       
       <div class="mt-5 mb-7 text-center">
         <p class="leading-8 text-[28px] text-[#CEE3E9]" id="advice-text">
@@ -38,19 +38,19 @@
       </div>
 
       <div class="flex justify-center mb-8 mx-auto">
-        <img src="./images/pattern-divider-mobile.svg" class="md:hidden">
-        <img src="./images/pattern-divider-desktop.svg" class="hidden md:block">
+        <img src="./images/pattern-divider-mobile.svg" class="md:hidden" alt="pattern-divider-mobile">
+        <img src="./images/pattern-divider-desktop.svg" class="hidden md:block" alt="pattern-divider-desktop">
       </div>
 
-      <button class="absolute left-2/4 bg-neongreen p-4 rounded-[50%] -translate-x-1/2 hover:shadow-neongreen" id="generate-advice">
-        <img src="./images/icon-dice.svg">
+      <button class="absolute left-2/4 bg-neongreen p-4 rounded-[50%] -translate-x-1/2 hover:shadow-neongreen" id="generate-advice" aria-label="get-advice-btn">
+        <img src="./images/icon-dice.svg" alt="dice-icon">
       </button>
     </div>
   </main>
 
-  <div class="absolute left-2/4 bottom-0 -translate-x-2/4 attribution">
+  <footer class="absolute left-2/4 bottom-0 -translate-x-2/4 attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/harshj11/" target="_blank">Harsh Jain</a>.
-  </div>
+  </footer>
 </body>
 </html>
